@@ -1,0 +1,58 @@
+2025-02-26 17:01:59.469 [info] 
+
+
+
+
+2025-02-26 17:01:59.469 [info] Extension host agent started.
+2025-02-26 17:01:59.470 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2025-02-26 17:01:59.486 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2025-02-26 17:01:59.510 [info] [<unknown>][821de146][ManagementConnection] New connection established.
+2025-02-26 17:01:59.512 [info] [<unknown>][3f64a1a9][ExtensionHostConnection] New connection established.
+2025-02-26 17:01:59.632 [info] [<unknown>][3f64a1a9][ExtensionHostConnection] <14125> Launched Extension Host Process.
+2025-02-26 17:02:52.567 [info] [<unknown>][7f3ad66c][ManagementConnection] New connection established.
+2025-02-26 17:02:52.570 [info] [<unknown>][7b33c015][ExtensionHostConnection] New connection established.
+2025-02-26 17:02:52.578 [info] [<unknown>][7b33c015][ExtensionHostConnection] <14176> Launched Extension Host Process.
+2025-02-26 17:03:19.622 [info] [<unknown>][0943ece9][ExtensionHostConnection] New connection established.
+2025-02-26 17:03:19.632 [info] [<unknown>][0943ece9][ExtensionHostConnection] <14291> Launched Extension Host Process.
+2025-02-26 17:03:19.677 [info] [<unknown>][fdf36e93][ManagementConnection] New connection established.
+2025-02-26 17:06:59.379 [info] New EH opened, aborting shutdown
+2025-02-26 17:06:59.381 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/server/node/server.main.js:191:6058)
+    at process.emit (node:events:517:28)
+2025-02-26 17:07:52.768 [info] [<unknown>][3f64a1a9][ExtensionHostConnection] <14125> Extension Host Process exited with code: 0, signal: null.
+2025-02-26 17:08:19.820 [info] [<unknown>][7b33c015][ExtensionHostConnection] <14176> Extension Host Process exited with code: 0, signal: null.
+2025-02-26 21:01:14.631 [info] [<unknown>][d58eff7d][ManagementConnection] New connection established.
+2025-02-26 21:01:14.637 [info] [<unknown>][0e560fcf][ExtensionHostConnection] New connection established.
+2025-02-26 21:01:14.646 [info] [<unknown>][0e560fcf][ExtensionHostConnection] <20091> Launched Extension Host Process.
+2025-02-26 21:01:18.490 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateTitle (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
+    at j.<computed> (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-02-26 21:01:18.502 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateIcon (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27683)
+    at j.<computed> (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/root/.vscode-server/cli/servers/Stable-5c3e652f63e798a5ac2f31ffd0d863669328dc4c/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-02-26 21:06:14.972 [info] [<unknown>][0943ece9][ExtensionHostConnection] <14291> Extension Host Process exited with code: 0, signal: null.
+2025-02-27 01:18:29.511 [info] [<unknown>][0e560fcf][ExtensionHostConnection] <20091> Extension Host Process exited with code: 0, signal: null.
+2025-02-27 01:18:29.513 [info] Last EH closed, waiting before shutting down
+2025-02-27 01:23:29.518 [info] Last EH closed, shutting down

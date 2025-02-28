@@ -1,0 +1,16 @@
+2025-02-26 17:03:20.926 [info] Extension host with pid 14291 started
+2025-02-26 17:03:20.927 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/37ad59abd3dde0895ab201166e3449de/vscode.lock'
+2025-02-26 17:03:20.939 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/37ad59abd3dde0895ab201166e3449de/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-02-26 17:03:21.001 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/37ad59abd3dde0895ab201166e3449de/vscode.lock': The lock does not look stale, elapsed: 886 ms, giving up.
+2025-02-26 17:03:21.009 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/37ad59abd3dde0895ab201166e3449de-1/vscode.lock': Lock acquired.
+2025-02-26 17:03:21.113 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-26 17:03:21.196 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-26 17:03:21.204 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-26 17:03:22.245 [info] Eager extensions activated
+2025-02-26 17:03:22.249 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-26 17:03:22.250 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-26 17:08:13.961 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-02-26 17:10:21.125 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-26 21:06:14.920 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-02-26 21:06:14.922 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/37ad59abd3dde0895ab201166e3449de-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-02-26 21:06:14.955 [info] Extension host with pid 14291 exiting with code 0
